@@ -15,4 +15,4 @@ export function mainMiddleware(request: NextRequest){
 //     matcher: ["/dashboard/:path*", "/about/:path*"],
 // }
 
-export default withAuth(mainMiddleware, ["/dashboard", "/profile"]);
+export default withAuth(mainMiddleware, ["/dashboard", "/profile", "/login", "/register"]);
